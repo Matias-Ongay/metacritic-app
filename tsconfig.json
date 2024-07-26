@@ -1,0 +1,16 @@
+{
+  "outdir": "./dist",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["nativewind/types"]
+  },
+  "exclude": ["node_modules"],
+  "extends": "expo/tsconfig.base"
+}
